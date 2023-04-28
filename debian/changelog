@@ -1,0 +1,5 @@
+cockpit-fancontrol (0.80) stable; urgency=low
+
+  * Initial cockpit-fancontrol release, with smartfancontrol for Raspberry PI as starting point
+
+ -- Helly1206 <hellyrulez@hotmail.com>  Sat, 15 Apr 2023 08:56:46 +0100

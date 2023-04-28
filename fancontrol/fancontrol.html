@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FanControl</title>
+    <meta charset="utf-8">
+    <link href="../base1/cockpit.css" rel="stylesheet" type="text/css">
+    <link href="../stdplgin/stdplgin.css" rel="stylesheet" type="text/css">
+    <script src="../base1/cockpit.js"></script>
+    <script src="../stdplgin/stdplgin-common.js"></script>
+</head>
+<body class="pf-m-redhat-font" id="fancontrol-page">
+    <div class="content-header-extra with-navtabs">
+        <div id="fancontrolpg" class="stdpg">
+            <div id="fancontrol-tabs">
+                <ul role="tablist" class="nav nav-tabs">
+                    <li role="presentation" class="active">
+                        <a id="fc-tab-monitor" role="tab" aria-controls="fc-pane-monitor" aria-selected="true">Monitor</a>
+                    </li>
+                    <li role="presentation" class="">
+                        <a id="fc-tab-fans" role="tab" aria-controls="fc-pane-fans" tabindex="-1" aria-selected="false">Fans settings</a>
+                    </li>
+                    <li role="presentation" class="">
+                        <a id="fc-tab-settings" role="tab" aria-controls="fc-pane-settings" tabindex="-1" aria-selected="false">Settings</a>
+                    </li>
+                    <li role="presentation" class="">
+                        <a id="fc-tab-log" role="tab" aria-controls="fc-pane-log" tabindex="-1" aria-selected="false">Log</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="tab-content">
+        <div id="fc-pane-monitor" aria-labelledby="fc-tab-monitor" role="tabpanel" aria-hidden="false" class="fade tab-pane active in"></div>
+        <div id="fc-pane-fans" aria-labelledby="fc-tab-fans" role="tabpanel" aria-hidden="true" class="fade tab-pane"></div>
+        <div id="fc-pane-settings" aria-labelledby="fc-tab-settings" role="tabpanel" aria-hidden="true" class="fade tab-pane"></div>
+        <div id="fc-pane-log" aria-labelledby="fc-tab-log" role="tabpanel" aria-hidden="true" class="fade tab-pane"></div>
+    </div>
+    <div id="modal-dialog">
+    </div>
+    <div id="modal-dialog2">
+    </div>
+    <script src="chart.js"></script>
+    <script src="fancontrol.js"></script>
+</body>
+</html>

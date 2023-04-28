@@ -1,0 +1,13 @@
+{
+    "version": "215",
+    "requires": {
+	    "cockpit": "264"
+    },
+    "tools": {
+        "index": {
+            "label": "FanControl",
+            "path": "fancontrol.html"
+        }
+    },
+    "content-security-policy": "img-src * data: 'unsafe-inline'; default-src 'self' 'unsafe-inline' 'unsafe-eval'"
+}

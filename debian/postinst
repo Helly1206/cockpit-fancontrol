@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Checking and installing required PIP packages"
+
+PKG_OK=$(sudo -H pip3 freeze| grep -i "psutil==")
+echo Checking for psutil: $PKG_OK
+if [ "" == "$PKG_OK" ]; then
+    echo "No psutil. Setting up psutil."
+    sudo -H pip3 install psutil
+fi
+
+exit 0
