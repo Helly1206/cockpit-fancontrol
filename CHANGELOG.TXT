@@ -1,2 +1,5 @@
+[B]0.8.1[/B]
+- Update for stdplgin v0.9.3+
+
 [B]0.8.0[/B]
 - Initial release, with smartfancontrol for Raspberry PI as starting point

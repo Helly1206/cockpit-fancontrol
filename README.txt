@@ -1,4 +1,4 @@
-cockpit-fancontrol v0.8.0
+cockpit-fancontrol v0.8.1
 
 cockpit-fancontrol -- cockpit UI for FanControl
 ================== == ======= == === ==========

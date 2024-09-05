@@ -1,3 +1,9 @@
+cockpit-fancontrol (0.81) stable; urgency=low
+
+  * Update for stdplgin v0.9.3+
+
+ -- Helly1206 <hellyrulez@hotmail.com>  Thu, 5 Sep 2024 13:58:28 +0100
+
 cockpit-fancontrol (0.80) stable; urgency=low
 
   * Initial cockpit-fancontrol release, with smartfancontrol for Raspberry PI as starting point

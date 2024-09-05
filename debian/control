@@ -13,6 +13,6 @@ Depends: python3,
          lm-sensors,
          fancontrol,
          cockpit,
-         cockpit-stdplgin (>= 0.91),
+         cockpit-stdplgin (>= 0.93),
          ${misc:Depends}
 Description: cockpit-fancontrol (cockpit UI for fancontrol)

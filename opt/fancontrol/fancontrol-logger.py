@@ -20,7 +20,7 @@ from datahandler import datahandler
 #########################################################
 
 ####################### GLOBALS #########################
-VERSION      = "0.80"
+VERSION      = "0.81"
 STDINTERVAL  = 60
 LOG_FILENAME = "/var/log/fancontrol-data.log"
 

@@ -18,7 +18,7 @@ from datahandler import datahandler
 #########################################################
 
 ####################### GLOBALS #########################
-VERSION      = "0.80"
+VERSION      = "0.81"
 DAEMONSFC    = "fancontrol"
 CMDNOTEXIST  = 127
 CMDTIMEOUT   = 124
